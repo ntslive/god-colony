@@ -2,8 +2,22 @@
     font-family: Arial;
 }
 
+$edge-padding: 50px;
+$text-color: red;
+
 body {
     background-color: black;
+}
+
+a {
+    color: $text-color;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+    &:visited {
+        color: $text-color;
+    }
 }
 
 /**
@@ -12,9 +26,6 @@ body {
  *
  *
  */
-
-$edge-padding: 50px;
-
 
 #iframe-container {
     position: absolute;
@@ -36,7 +47,7 @@ $edge-padding: 50px;
     right: $edge-padding;
     left: $edge-padding;
 
-    border: 2px solid red;
+    border: 2px solid $text-color;
 
     text-align: center;
 
@@ -46,15 +57,47 @@ $edge-padding: 50px;
         padding: 0;
         list-style-type: none;
         list-style: none;
+
+        li {
+            margin-bottom: 5px;
+
+            a {
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#information-button {
+    display: inline-block;
+    border: 4px solid black;
+    padding: 5px 10px;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#page-information {
+    display: none;
+
+    &.display-information {
+        display: block;
+    }
+    &:not(.display-information) {
+        display: none;
     }
 }
 
 @media (max-width: 650px) {
     #iframe-container {
         position: relative;
-
+        width: 100%;
+        height: auto;
         iframe {
-            //width: 100%;
+            width: 100%;
+            height: auto;
             //height: 100px;
         }
     }
@@ -65,3 +108,24 @@ $edge-padding: 50px;
     }
 }
 
+
+
+/** Code I've knicked **/
+
+.sliding-hover {
+    // Handles sliding hover from side
+    display: inline-block;
+    padding: 6px 18px 6px 10px;
+
+    box-shadow: inset 0 0 0 0 gold;
+
+    -webkit-transition: box-shadow ease 0.8s;
+    -moz-transition: box-shadow ease 0.8s;
+    transition: box-shadow ease 0.8s;
+
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: inset 400px 0 0 0 gold;
+    }
+}

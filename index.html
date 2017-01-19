@@ -9,23 +9,32 @@
     <meta http-equiv="Pragma" content="no-cache">
 
     <link rel="stylesheet" href="style.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous" type="text/javascript"></script>
+    <script src="client.js" type="text/javascript"></script>
 </head>
 
 <body>
 
 <div id="iframe-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VsRQ0HS3odk?controls=0&hd=1modestbranding=1&showinfo=0&autoplay=1&loop=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FsY9_VSYmgo?controls=0&hd=1modestbranding=1&showinfo=0&autoplay=1&loop=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div id="text-container">
     <h1>God Colony</h1>
 
-    <p id="page-description"></p>
+    <div id="information-button" class="sliding-hover">
+        Display Information
+    </div>
+
+    <div id="page-information">
+        <p id="page-description">THIS IS THE PAGE DESCRIPTION</p>
+    </div>
 
     <ul id="video-list-container">
-        <li>Video 1</li>
-        <li>Video 2</li>
-        <li>Video 3</li>
+        <li><a class="sliding-hover" href="http://www.nts.live/videos/coucou_chloe_live_at_ica">Video 1</a></li>
+        <li><a class="sliding-hover" href="http://www.nts.live/videos/coucou_chloe_live_at_ica">Video 2</a></li>
+        <li><a class="sliding-hover" href="http://www.nts.live/videos/coucou_chloe_live_at_ica">Video 3</a></li>
     </ul>
 </div>
 
