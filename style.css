@@ -147,7 +147,10 @@ a {
   -ms-user-select: none;
   user-select: none; }
 
-@media (max-width: 650px) {
+@media all and (max-device-width: 650px) {
+  html {
+    font-size: 2.8em; }
+
   #iframe-container {
     position: relative;
     width: 100%;
@@ -177,7 +180,9 @@ a {
   #page-title {
     text-align: center;
     width: 100%;
-    background-position: center; }
+    height: 5em;
+    background-position: center;
+    background-size: 75%; }
 
   #page-information {
     visibility: visible !important;
@@ -186,7 +191,7 @@ a {
     text-align: left;
     max-width: 100%;
     width: 100%;
-    padding: 10px 25px;
+    padding: 0px 25px;
     mix-blend-mode: unset; }
 
   #video-list-container {
@@ -196,7 +201,7 @@ a {
     #video-list-container a {
       text-decoration: underline; }
     #video-list-container li {
-      margin-bottom: 15px; }
+      margin-bottom: 0.75em; }
 
   #nts-logo, #page-title, #information-button, #page-information, #video-list-container, #page-description {
     position: relative;
