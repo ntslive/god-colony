@@ -10,10 +10,10 @@ $(document).ready(function() {
 
         if (pageInfo.hasClass(informationClass)) {
             pageInfo.removeClass('display-information');
-            $(this).text("Display Information");
+            $(this).text("MORE INFO");
         } else {
             pageInfo.addClass('display-information');
-            $(this).text("Hide Information");
+            $(this).text("HIDE INFO");
         }
     });
 });
