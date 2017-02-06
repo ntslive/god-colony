@@ -28,6 +28,6 @@ $(document).ready(function() {
         }
     });
 
-    ga('send', 'pageview', url);
+    ga('send', 'pageview', window.location.pathname);
 });
 
