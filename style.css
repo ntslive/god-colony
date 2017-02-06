@@ -149,7 +149,7 @@ a {
 
 @media all and (max-device-width: 650px) {
   html {
-    font-size: 2.8em; }
+    font-size: 1.2em; }
 
   #iframe-container {
     position: relative;
@@ -180,15 +180,17 @@ a {
   #page-title {
     text-align: center;
     width: 100%;
-    height: 5em;
+    height: 6.5em;
     background-position: center;
-    background-size: 75%; }
+    background-size: 75%;
+    display: inline-block; }
 
   #page-information {
     visibility: visible !important;
     opacity: 1 !important;
     transform: none;
     text-align: left;
+    font-size: 1em;
     max-width: 100%;
     width: 100%;
     padding: 0px 25px;
