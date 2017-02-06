@@ -51,6 +51,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('development', ['sass:compile', 'watch']);
 
-    grunt.registerTask('production',  []);
+    grunt.registerTask('production',  ['sass:compile']);
 
 };

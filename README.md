@@ -1,6 +1,6 @@
 # God Colony
 
-Repository contains mini-site for 3-part video series for God Colony by NTS Radio.
+Repository contains mini-site for 3-part video series for [God Colony](https://soundcloud.com/god-colony) by NTS Radio.
 
 Find Github pages for mini-site [here](https://ntslive.github.io/god-colony/) and [here](http://www.nts.live/projects/god-colony)
 
