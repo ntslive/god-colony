@@ -13,3 +13,9 @@ Using Sass, which Grunt will compile via tasks 'production' or 'development', th
 ```bash
 npm install
 grunt production
+```
+
+Run local server (http://localhost:3000) with:
+```
+node app.js
+```
