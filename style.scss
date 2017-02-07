@@ -49,6 +49,8 @@ a {
     right: 0;
     left: 0;
 
+    overflow: hidden;
+
     iframe {
         width: 100%;
         height: 100%;
@@ -207,6 +209,8 @@ $logo-size: 40px;
         height: 0;
         padding-bottom: 56.25%;
 
+        overflow: auto;
+
         iframe {
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
@@ -264,7 +268,6 @@ $logo-size: 40px;
             margin-bottom: 0.75em;
         }
     }
-
 
     #nts-logo, #page-title, #information-button, #page-information, #video-list-container, #page-description {
         position: relative;
