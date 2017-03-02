@@ -205,7 +205,8 @@ a {
     #video-list-container a {
       text-decoration: underline; }
     #video-list-container li {
-      margin-bottom: 0.75em; }
+      margin-bottom: 0.75em;
+      max-width: 40vw; }
 
   #nts-logo, #page-title, #information-button, #page-information, #video-list-container, #page-description {
     position: relative;
