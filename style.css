@@ -67,7 +67,8 @@ a {
   text-align: right;
   font-size: 0.95em;
   list-style-type: none;
-  list-style: none; }
+  list-style: none;
+  max-width: 40vw; }
   #video-list-container li {
     margin-bottom: 5px; }
   #video-list-container a {
@@ -201,12 +202,12 @@ a {
   #video-list-container {
     text-align: center;
     padding: 10px 40px;
-    font-size: 1em; }
+    font-size: 1em;
+    max-width: 100vw; }
     #video-list-container a {
       text-decoration: underline; }
     #video-list-container li {
-      margin-bottom: 0.75em;
-      max-width: 40vw; }
+      margin-bottom: 0.75em; }
 
   #nts-logo, #page-title, #information-button, #page-information, #video-list-container, #page-description {
     position: relative;
